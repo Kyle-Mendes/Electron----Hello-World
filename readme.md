@@ -1,6 +1,6 @@
-# hello-world
+# Electron Hello World
 
-> My hunky-dory app
+A very basic (electron)[https://github.com/atom/electron] app.  Testing out adding different libraries, and interacting with the system files.
 
 
 ## Dev
