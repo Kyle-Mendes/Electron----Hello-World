@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Kyle Mendes <kmendes@fuzzproductions.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "kyle.pink",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}

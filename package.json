@@ -1,0 +1,36 @@
+{
+  "name": "hello-world",
+  "productName": "HelloWorld",
+  "version": "0.0.0",
+  "description": "My hunky-dory app",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": "pink401k/hello-world",
+  "author": {
+    "name": "Kyle Mendes",
+    "email": "kmendes@fuzzproductions.com",
+    "url": "kyle.pink"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --prune --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "devDependencies": {
+    "electron-packager": "^3.1.0",
+    "electron-prebuilt": "^0.25.1"
+  },
+  "dependencies": {
+    "dombo": "^3.2.0"
+  }
+}

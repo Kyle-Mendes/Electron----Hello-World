@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello World!</title>
+		<link rel="stylesheet" href="index.css">
+		<link rel="import" href="./bower_components/polymer/polymer.html">
+		<link rel="import" href="./bower_components/paper-elements/paper-elements.html">
+		<link rel="import" href="./bower_components/font-roboto/roboto.html">
+		<link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
+	</head>
+	<body>
+
+		<core-toolbar style="background: #4285f4; height: 64px; display: block;">
+			<paper-icon-button icon="menu"></paper-icon-button>
+			<span flex>These buttons do nothing</span>
+			<paper-icon-button icon="refresh"></paper-icon-button>
+			<paper-icon-button icon="more-vert"></paper-icon-button>
+		</core-toolbar>
+
+		<div class="container">
+			<header>
+				<h1>Reddit Username Lookup</h1>
+			</header>
+
+			<section class="main">
+
+				<paper-input class="username" label="label"></paper-input>
+				<paper-button id="reddit-user" class="colored">Submit</paper-button>
+				<br>
+				<div class="user">
+				</div>
+				<br>
+				<br>
+				<br>
+				<paper-button id="new-media" class="colored">Set Background</paper-button>
+				<paper-button id="new-song" class="colored">Play Music</paper-button>
+
+			</section>
+			<footer></footer>
+		</div>
+	</body>
+    <script src="index.js"></script>
+</html>
